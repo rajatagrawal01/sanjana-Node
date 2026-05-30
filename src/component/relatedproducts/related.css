@@ -1,0 +1,24 @@
+.related{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.related h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: black;
+}
+
+.related hr{
+    width: 380px;
+    height: 3px;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    margin-top: 15px;
+}
+.item img{
+    width: 100%;
+}

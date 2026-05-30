@@ -1,0 +1,19 @@
+.desc_box {
+    display: flex; 
+    margin-left: 240px; 
+}
+
+.desc_box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    border: 1px solid #e5e5e5;
+}
+.reviews{
+    line-height: 30px;
+    margin-left: 240px;
+    width: 60%;
+    border:1px solid #e5e5e5;
+}
