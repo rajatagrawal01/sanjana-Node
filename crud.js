@@ -1,6 +1,6 @@
 // const { connectDB ,client} =require("./mongo-db")
 
-import { connectDB, client } from "./mongo-db";
+import { connectDB, client } from "./mongo-db.js";
 
 connectDB()
 
@@ -46,7 +46,7 @@ async function deleteData() {
   }
 }
 
-// insertData([{ name: "Raxx", age: 25 },{ name: "Raxx", age: 30 }])
+insertData([{ name: "Raxx", age: 25 },{ name: "Raxx", age: 30 }])
 // fetchData()
 // updateData()
 // deleteData()
